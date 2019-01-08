@@ -96,7 +96,7 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<ul class="timeline">
-					{{each home_page_about_timeline as timeline}}
+					{{each home_page_about_timeline as timeline sort by timeline.sort_order}}
 					{{if {index} % 2 = 0}}
 					<li class="timeline-inverted">
 						{{else}}
