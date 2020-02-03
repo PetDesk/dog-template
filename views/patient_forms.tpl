@@ -133,17 +133,17 @@
 
 
 							<div class="form-group col-xs-12">
-								{{ each custom_form_fields as form where find_in_set(form.zid, '{page.additional_fields}') sort by form.sort_order }}
+								{{ each custom_form_fields as form where find_in_set(form.zuid, '{page.additional_fields}') sort by form.sort_order }}
 								<!-- name/text/toggle -->
 								{{ if {form.field_type_toggle} == 0 }}
 								<div class="form-group">
-									<label for="id{{form.zid}}">{{ form.custom_field_name }}</label>
-									<input name="{{ form.custom_field_name }}" type="text" class="form-control" id="id{{form.zid}}">
+									<label for="id{{form.zuid}}">{{ form.custom_field_name }}</label>
+									<input name="{{ form.custom_field_name }}" type="text" class="form-control" id="id{{form.zuid}}">
 								</div>
 								{{ else }}
 								<div class="form-group">
-									<label for="id{{form.zid}}">{{ form.custom_field_name }}</label>
-									<input name="{{ form.custom_field_name }}" class="form-control" id="id{{form.zid}}" rows="3">
+									<label for="id{{form.zuid}}">{{ form.custom_field_name }}</label>
+									<input name="{{ form.custom_field_name }}" class="form-control" id="id{{form.zuid}}" rows="3">
 								</div>
 								{{ end-if }}
 								{{ end-each }}
