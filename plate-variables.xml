@@ -182,6 +182,54 @@
                 <locked>0</locked>
                 <value>#ffffff</value>
             </color>
+            <text name="font-size-h1" name_friendly="H1 Font Size">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>11</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>36px</value>
+            </text>
+            <text name="font-size-h2" name_friendly="H2 Font Size">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>12</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>30px</value>
+            </text>
+            <text name="font-size-h3" name_friendly="H3 Font Size">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>13</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>24px</value>
+            </text>
+            <text name="font-size-h4" name_friendly="H4 Font Size">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>14</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>18px</value>
+            </text>
+            <text name="font-size-h5" name_friendly="H5 Font Size">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>15</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>14px</value>
+            </text>
+            <text name="font-size-h6" name_friendly="H6 Font Size">
+                <category>2</category>
+                <description>NULL</description>
+                <sort>16</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>12px</value>
+            </text>
             <color name="btn-default-color" name_friendly="Button Font Color">
                 <category>6</category>
                 <description/>
@@ -310,8 +358,6 @@
                 <locked>0</locked>
                 <value>#ffffff</value>
             </color>
-
-
 
             <text name="default-spacing" name_friendly="Default Spacing">
                 <category>1</category>
