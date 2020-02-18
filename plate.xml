@@ -197,6 +197,7 @@
               <images name="image" name_friendly="Image" list="1" />
               <wysiwyg_advanced name="image_caption" name_friendly="Image Caption" list="1" />
               <text name="button_text" name_friendly="Button Text" list="1" />
+                <link name="links_to_external" name_friendly="Links to (external)" />
               <internal_link name="links_to" name_friendly="Links To" list="1" />
               <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
@@ -206,6 +207,7 @@
                 <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
                 <image_caption><![CDATA[]]></image_caption>
                 <button_text><![CDATA[]]></button_text>
+                <links_to_external><![CDATA[]]></links_to_external>
                 <links_to><![CDATA[]]></links_to>
                 <sort_order><![CDATA[1]]></sort_order>
               </item>
@@ -214,6 +216,7 @@
                 <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
                 <image_caption><![CDATA[]]></image_caption>
                     <button_text><![CDATA[]]></button_text>
+                    <links_to_external><![CDATA[]]></links_to_external>
                     <links_to><![CDATA[]]></links_to>
                 <sort_order><![CDATA[2]]></sort_order>
               </item>
@@ -222,6 +225,7 @@
                 <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
                 <image_caption><![CDATA[]]></image_caption>
                     <button_text><![CDATA[]]></button_text>
+                    <links_to_external><![CDATA[]]></links_to_external>
                     <links_to><![CDATA[]]></links_to>
                 <sort_order><![CDATA[3]]></sort_order>
               </item>
