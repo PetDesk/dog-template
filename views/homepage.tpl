@@ -58,7 +58,7 @@
 			pauseOnHover: false,
 			pauseOnFocus: false,
 		});
-		
+
 	});
 </script>
 {{ include script-bg-vid }}
