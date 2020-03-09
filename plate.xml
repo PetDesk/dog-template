@@ -197,7 +197,7 @@
               <images name="image" name_friendly="Image" list="1" />
               <wysiwyg_advanced name="image_caption" name_friendly="Image Caption" list="1" />
               <text name="button_text" name_friendly="Button Text" list="1" />
-              <link name="links_to_external" name_friendly="Links to (external)" />
+              <link name="links_to_external" name_friendly="Links to (external)" />  
               <internal_link name="links_to" name_friendly="Links To" list="1" />
               <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
