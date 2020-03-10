@@ -660,6 +660,7 @@
                   <text name="page_title" name_friendly="Page Title" required="1" list="1" />
                   <images name="main_image" name_friendly="Main Image" list="1" />
                   <text name="main_image_alt_text" name_friendly="Main Image Alt Text" />
+                  <text name="service_page_alt_text" name_friendly="Service Page Alt Text" />
                   <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
                   <sort name="sort_order" name_friendly="Sort Order" required="1" list="1" />
               </fields>
@@ -668,6 +669,7 @@
                   <page_title><![CDATA[General Health]]></page_title>
                   <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/general-health-main-image.jpeg]]></main_image>
                   <main_image_alt_text><![CDATA[]]></main_image_alt_text>
+                  <service_page_alt_text><![CDATA[]]></service_page_alt_text>
                   <body_text><![CDATA[]]>
                 </body_text>
                   <sort_order><![CDATA[1]]></sort_order>
@@ -676,6 +678,7 @@
                   <page_title><![CDATA[Vaccines]]></page_title>
                   <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/general-health-main-image.jpeg]]></main_image>
                   <main_image_alt_text><![CDATA[]]></main_image_alt_text>
+                  <service_page_alt_text><![CDATA[]]></service_page_alt_text>
                   <body_text><![CDATA[]]></body_text>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
@@ -683,6 +686,7 @@
                   <page_title><![CDATA[Care Packages]]></page_title>
                   <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/general-health-main-image.jpeg]]></main_image>
                   <main_image_alt_text><![CDATA[]]></main_image_alt_text>
+                  <service_page_alt_text><![CDATA[]]></service_page_alt_text>
                   <body_text><![CDATA[]]></body_text>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
@@ -690,6 +694,7 @@
                   <page_title><![CDATA[Dental Care]]></page_title>
                   <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/general-health-main-image.jpeg]]></main_image>
                   <main_image_alt_text><![CDATA[]]></main_image_alt_text>
+                  <service_page_alt_text><![CDATA[]]></service_page_alt_text>
                   <body_text><![CDATA[]]></body_text>
                   <sort_order><![CDATA[4]]></sort_order>
                 </item>
