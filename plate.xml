@@ -209,7 +209,6 @@
               <text name="image_title" name_friendly="Image Title" list="1" />
               <images name="image" name_friendly="Image" list="1" />
               <text name="background_image_alt_text" name_friendly="Background Image Alt Text" list="1" />
-              <wysiwyg_advanced name="image_caption" name_friendly="Image Caption" list="1" />
               <text name="button_text" name_friendly="Button Text" list="1" />
               <link name="links_to_external" name_friendly="Links to (external)" />
               <internal_link name="links_to" name_friendly="Links To" list="1" />
@@ -217,29 +216,24 @@
             </fields>
             <items>
               <item>
-                <image_title><![CDATA[]]></image_title>
-                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
                 <background_image_alt_text><![CDATA[]]></background_image_alt_text>
-                <image_caption><![CDATA[]]></image_caption>
+                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
                 <button_text><![CDATA[]]></button_text>
                   <links_to_external><![CDATA[]]></links_to_external>
                 <links_to><![CDATA[]]></links_to>
                 <sort_order><![CDATA[1]]></sort_order>
               </item>
               <item>
-                <image_title><![CDATA[]]></image_title>
-                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
                 <background_image_alt_text><![CDATA[]]></background_image_alt_text>
-                <image_caption><![CDATA[]]></image_caption>
-                    <button_text><![CDATA[]]></button_text>
+                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
+                  <button_text><![CDATA[]]></button_text>
                   <links_to_external><![CDATA[]]></links_to_external>
-                    <links_to><![CDATA[]]></links_to>
+                  <links_to><![CDATA[]]></links_to>
                 <sort_order><![CDATA[2]]></sort_order>
               </item>
               <item>
-                <image_title><![CDATA[]]></image_title>
-                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
                 <background_image_alt_text><![CDATA[]]></background_image_alt_text>
+                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
                 <image_caption><![CDATA[]]></image_caption>
                     <button_text><![CDATA[]]></button_text>
                   <links_to_external><![CDATA[]]></links_to_external>
