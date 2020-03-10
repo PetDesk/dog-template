@@ -951,6 +951,7 @@
                   <photo_title><![CDATA[]]></photo_title>
                   <photo_category><![CDATA[]]></photo_category>
                   <about_us_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos-kitkat.jpg]]></about_us_photo>
+                  <about_us_photo_alt_text><![CDATA[]]></about_us_photo_alt_text>
                   <photo_description><![CDATA[]]></photo_description>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
@@ -958,6 +959,7 @@
                   <photo_title><![CDATA[]]></photo_title>
                   <photo_category><![CDATA[]]></photo_category>
                   <about_us_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos-mister-cheddar.jpg]]></about_us_photo>
+                  <about_us_photo_alt_text><![CDATA[]]></about_us_photo_alt_text>
                   <photo_description><![CDATA[]]></photo_description>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
@@ -965,6 +967,7 @@
                   <photo_title><![CDATA[]]></photo_title>
                   <photo_category><![CDATA[]]></photo_category>
                   <about_us_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos-nurse-helps.jpg]]></about_us_photo>
+                  <about_us_photo_alt_text><![CDATA[]]></about_us_photo_alt_text>
                   <photo_description><![CDATA[]]></photo_description>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
@@ -972,6 +975,7 @@
                   <photo_title><![CDATA[]]></photo_title>
                   <photo_category><![CDATA[]]></photo_category>
                   <about_us_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-main.jpg]]></about_us_photo>
+                  <about_us_photo_alt_text><![CDATA[]]></about_us_photo_alt_text>
                   <photo_description><![CDATA[]]></photo_description>
                   <sort_order><![CDATA[4]]></sort_order>
                 </item>
@@ -982,6 +986,7 @@
               <fields>
                   <text name="page_title" name_friendly="Page Title" required="1" />
                   <images name="main_image" name_friendly="Main Image" limit="1" />
+                  <text name="main_image_alt_text" name_friendly="Main Image Alt Text" />
                   <text name="youtube_id" name_friendly="YouTube ID" limit="1" />
                   <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
               </fields>
@@ -989,6 +994,7 @@
                   <item link_title="Office Tour" path_part="office-tour" parent="about-us">
                       <page_title><![CDATA[Office Tour]]></page_title>
                       <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photo-main-image.jpeg]]></main_image>
+                      <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <youtube_id><![CDATA[H2p1UZlgLjo]]></youtube_id>
                       <body_text>
                         <![CDATA[]]>
@@ -1002,6 +1008,7 @@
                   <text name="photo_title" name_friendly="Photo Title"  list="1" />
                   <text name="photo_category" name_friendly="Photo Category" list="1" />
                   <images name="office_photo" name_friendly="Office Photo" list="1" />
+                  <text name="office_photo_alt_text" name_friendly="Office Photo Alt Text" />
                   <wysiwyg_advanced name="photo_description" name_friendly="Photo Description" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
@@ -1010,6 +1017,7 @@
                   <photo_title><![CDATA[]]></photo_title>
                   <photo_category><![CDATA[]]></photo_category>
                   <office_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photo-front-office.jpg]]></office_photo>
+                  <office_photo_alt_text><![CDATA[]]></office_photo_alt_text>
                   <photo_description><![CDATA[]]></photo_description>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
@@ -1017,6 +1025,7 @@
                   <photo_title><![CDATA[]]></photo_title>
                   <photo_category><![CDATA[]]></photo_category>
                   <office_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photos-backoffice.jpg]]></office_photo>
+                  <office_photo_alt_text><![CDATA[]]></office_photo_alt_text>
                   <photo_description><![CDATA[]]></photo_description>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
@@ -1024,11 +1033,12 @@
                   <photo_title><![CDATA[]]></photo_title>
                   <photo_category><![CDATA[]]></photo_category>
                   <office_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photo-exam-room.JPG]]></office_photo>
+                  <office_photo_alt_text><![CDATA[]]></office_photo_alt_text>
                   <photo_description><![CDATA[]]></photo_description>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
               </items>
           </dataset>
-          <!-- ABOUT US END -->
+          <!-- ABOUT US END  -->
         </ingredients>
     </plate>
