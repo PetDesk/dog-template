@@ -26,7 +26,7 @@
 					{{ end-if }}
 					<div class="col-md-4">
 						<a class="magnific" href="{{photo.office_photo.getImage()}}" title="{{ photo.photo_title }}" itemprop="name url">
-							<img src ="{{ photo.office_photo.getImage(600,400,crop) }}" alt="{{picture.title}} photo">
+							<img src ="{{ photo.office_photo.getImage(600,400,crop) }}" alt="{{ photo.office_photo_alt_text }}">
 						</a>
 						<p class="large">{{ photo.photo_title }}</p>
 						{{ photo.photo_description }}

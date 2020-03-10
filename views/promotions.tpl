@@ -15,7 +15,7 @@
 					{{ page.body_text }}
 					{{ each promo as deal sort by deal.sort_order }}
 					<div class="promo-detail">
-						<img src="{{ deal.promo_image.getImage(800) }}">
+						<img src="{{ deal.promo_image.getImage(800) }}" alt="{{ deal.promo_image_alt_text }}">
 						<p class="large">{{ deal.promo_title }}</p>
 						<p>{{ deal.promo_description }}</p>
 						<p>Promo code: {{ deal.promo_code }}</p>

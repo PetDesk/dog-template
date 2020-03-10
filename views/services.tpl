@@ -25,7 +25,7 @@
 								{{ end-if }}
 								<div class="col-md-4">
 									<div class="square-wrap">
-										<img src="{{ ser.main_image.getImage(700,700,crop) }}">
+										<img src="{{ ser.main_image.getImage(700,700,crop) }}" alt="{{ ser.service_page_alt_text }}">
 										<h4>{{ ser.page_title.striptags() }}</h4>
 										<a class="btn btn-lg btn-primary" href="{{ ser.getUrl() }}">Learn More</a>
 									</div>
