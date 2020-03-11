@@ -105,9 +105,7 @@
 						<li>
 							{{end-if}}
 							<div class="timeline-image">
-								<span class="timeline-image" role="img" aria-label=" {{ timeline.bubble_image_alt_text }}">
-								</span>
-								<img class="img-circle img-responsive" src="{{timeline.bubble_image.getImage(400,400,crop)}}" alt="{{timeline.title}} Image">
+								<img class="img-circle img-responsive" src="{{timeline.bubble_image.getImage(400,400,crop)}}" alt="{{timeline.bubble_image_alt_text}} Image">
 							</div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
