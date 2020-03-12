@@ -105,7 +105,7 @@
 						<li>
 							{{end-if}}
 							<div class="timeline-image">
-								<img class="img-circle img-responsive" src="{{timeline.bubble_image.getImage(400,400,crop)}}" alt="{{timeline.bubble_image_alt_text}} Image">
+								<img class="img-circle img-responsive" src="{{timeline.bubble_image.getImage(400,400,crop)}}" alt="{{timeline.bubble_image_alt_text }}">
 							</div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
