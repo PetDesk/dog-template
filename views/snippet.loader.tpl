@@ -68,7 +68,7 @@
         $('#myModal').modal('show');
     });
 
-		createCookie('popUp',12, 30);
+		createCookie('popUp',12, 1);
 	};
 
 	function eraseallcookies(){
