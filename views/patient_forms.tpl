@@ -13,9 +13,11 @@
 						<h1>{{ page.page_title }}</h1>
 					</div>
 					<div class="body-text" >
-						<h3>{{ page.body_text }}</h3>
+						{{ page.body_text }}
 					</div>
-					<p class="form-rows">{{ page.download_form_note}}</p>
+					<div>
+						<span class="form-rows">{{ page.download_form_note}}</span>
+					</div>
 
 							<br/>
 					{{ if {page.zuid} == {patient_forms.first().zuid} }}
