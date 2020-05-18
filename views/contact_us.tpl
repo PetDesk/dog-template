@@ -7,14 +7,14 @@
 					<h1>{{ page.page_title }}</h1>
 				</div>
 				<div class="col-md-4" >
-					<p>{{ page.address_one }}</p>
-					<p>{{ page.address_two }}</p>
-					<p>{{ page.address_three }}</p>
-					<p>{{ page.general_info_one }}</p>
-					<p>{{ page.phone_number_one }}</p>
-					<p>{{ page.general_info_two }}</p>
-					<p>{{ page.phone_number_two }}</p>
-					<p>{{ page.general_info_three }}</p>
+					{{ page.address_one }}
+					{{ page.address_two }}
+					{{ page.address_three }}
+					{{ page.general_info_one }}
+					{{ page.phone_number_one }}
+					{{ page.general_info_two }}
+					{{ page.phone_number_two }}
+					{{ page.general_info_three }}
 					<h4>{{ page.hours_title }}</h4>
 					{{ each hours_of_operation as hours sort by hours.sort_order }}
 					<p><span class="days">{{ hours.day_of_week}}</span> {{ if {hours.open} }}<span class="pull-right">{{hours.open}}am - {{ hours.close}}pm</span>{{ else }}<span class="pull-right">Closed</span>{{ end-if }}</p>
