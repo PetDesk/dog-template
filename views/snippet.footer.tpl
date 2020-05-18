@@ -3,17 +3,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 col-md-6 basic">
-				<p>{{ contact_us.first().address_one }}</p>
-				<p>{{ contact_us.first().address_two }}</p>
-				<p>{{ contact_us.first().address_three }}</p>
+				{{ contact_us.first().address_one }}
+				{{ contact_us.first().address_two }}
+				{{ contact_us.first().address_three }}
 				<br>
-				<p>{{ contact_us.first().general_info_one }}</p>
-				<p>{{ contact_us.first().phone_number_one}}</p>
+				{{ contact_us.first().general_info_one }}
+				{{ contact_us.first().phone_number_one}}
 				<br>
-				<p>{{ contact_us.first().general_info_two }}</p>
-				<p>{{ contact_us.first().phone_number_two }}</p>
+				{{ contact_us.first().general_info_two }}
+				{{ contact_us.first().phone_number_two }}
 				<br>
-				<p>{{ contact_us.first().general_info_three }}</p>
+				{{ contact_us.first().general_info_three }}
 				<div class="row">
 					{{ each footer_logos as fl sort by fl.sort_order }}
 					{{ if {index} % 2 == 1 && {index} != 1 }}
