@@ -24,7 +24,7 @@
 					{{ each online_forms as of sort by of.sort_order }}
 					<blockquote>
 						<div class="form-rows">
-							<h4>{{ of.form_title }}</h4>
+							{{ of.form_title }}
 							{{ of.form_description }}
 							<a href="{{ of.form_pdf.getMediaUrl() }}" target="blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Form</a>
 						</div>
