@@ -290,7 +290,7 @@
                   <wysiwyg_advanced name="phone_number_two" name_friendly="Phone Number 2" />
                   <wysiwyg_advanced name="special_hours_info" name_friendly="Special Hours Info" />
                   <wysiwyg_advanced name="general_info_three" name_friendly="General Info 3" />
-                  <wysiwyg_advanced name="google_map_embed" name_friendly="Google Map Embed" />
+                  <textarea name="google_map_embed" name_friendly="Google Map Embed" />
               </fields>
               <items>
                   <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
