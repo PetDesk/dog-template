@@ -550,9 +550,9 @@
                 <text name="page_title" name_friendly="Page Title" required="1" />
                 <images name="main_image" name_friendly="Main Image" limit="1" />
                 <text name="main_image_alt_text" name_friendly="Main Image Alt Text" />
-                <textarea name="body_text" name_friendly="Body Text" />
-                <textarea name="download_form_note" name_friendly="Downloadable Forms Note" />
-                <textarea name="embedded_form_instrux" name_friendly="Form Instructions" />
+                <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
+                <wysiwyg_advanced name="download_form_note" name_friendly="Downloadable Forms Note" />
+                <wysiwyg_advanced name="embedded_form_instrux" name_friendly="Form Instructions" />
                 <dropdown name="default_fields" name_friendly="Default Form Fields" options="no_form:No Form;patient_basic:Patient Basic;patient_address:Patient Address;patient_address_and_pet_info:Patient address and Pet Info;" />
                 <one_to_many name="additional_fields" name_friendly="Additional Form Fields (add additional fields that you've created in the Custom Form dataset)" relationship="custom_form_fields" relationship_field="custom_field_name" />
                 <text name="send_form_to" name_friendly="Send Form To (email address)" required="1" />
