@@ -283,14 +283,14 @@
                   <text name="address_one" name_friendly="Address 1" />
                   <text name="address_two" name_friendly="Address 2" />
                   <text name="address_three" name_friendly="Address 3" />
-                  <textarea name="general_info_one" name_friendly="General Info 1" />
-                  <textarea name="phone_number_one" name_friendly="Phone Number 1" />
-                  <textarea name="general_info_two" name_friendly="General Info 2" />
-                  <textarea name="hours_title" name_friendly="Hours Title, e.g. Hours of Operation" />
-                  <textarea name="phone_number_two" name_friendly="Phone Number 2" />
-                  <textarea name="special_hours_info" name_friendly="Special Hours Info" />
-                  <textarea name="general_info_three" name_friendly="General Info 3" />
-                  <textarea name="google_map_embed" name_friendly="Google Map Embed" />
+                  <wysiwyg_advanced name="general_info_one" name_friendly="General Info 1" />
+                  <wysiwyg_advanced name="phone_number_one" name_friendly="Phone Number 1" />
+                  <wysiwyg_advanced name="general_info_two" name_friendly="General Info 2" />
+                  <wysiwyg_advanced name="hours_title" name_friendly="Hours Title, e.g. Hours of Operation" />
+                  <wysiwyg_advanced name="phone_number_two" name_friendly="Phone Number 2" />
+                  <wysiwyg_advanced name="special_hours_info" name_friendly="Special Hours Info" />
+                  <wysiwyg_advanced name="general_info_three" name_friendly="General Info 3" />
+                  <wysiwyg_advanced name="google_map_embed" name_friendly="Google Map Embed" />
               </fields>
               <items>
                   <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
