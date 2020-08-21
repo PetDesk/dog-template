@@ -6,7 +6,7 @@
 	/*   1. SITE WIDE FONT COLOR: GENERAL   */
 	/* ------------------------------------ */
 	/* SITE WIDE FONT COLOR: GENERAL */
-		* { color: black; }
+		* { color:  }
 
 	/* HTML HEADER COLORS */
 	/* ----------------------------------------------------------------- */
@@ -14,130 +14,147 @@
 	/* ----------------------------------------------------------------- */
 	/* HTML HEADER COLORS */
 		/* All subpage headers: About Us, Careers, Services, etc. */
-		h1 { color:  purple; }
-		h2 { color: green; }
+		h1 { color:  }
 
-		/* Subpage Hero Text */
 
+	/* ----------------------------------------------------------------- */
+	/*     2. All SUBPAGE Hero Images   */
+	/* ----------------------------------------------------------------- */
+		.hero-container h2 { color:  }
 
 
 	/* ---------------------------------------------------------------- */
 	/*    3. Homepage squares titles      */
 	/* ---------------------------------------------------------------- */
-		#team h3{ color: blue; } /* check and see if h3 affects same text as in Cat */
+		#team h3{ color:  } 
+
+	/* ---------------------------------------------------------------- */
+	/*    3. Homepage squares button    */
+	/* ---------------------------------------------------------------- */
+		#team a { color:  }
+
+	/* ---------------------------------------------------------------- */
+	/*    3. Homepage squares button hover    */
+	/* ---------------------------------------------------------------- */
+		/* Squares buttons hover */
+		#team a:hover { color:  }
 
 	/* ---------------------------------------------------------------- */
 	/*    4. Employee categories    */
 	/* ---------------------------------------------------------------- */
-		#meet-the-team h3 { color: blue; } /* check and see if h3 affects same text as in Cat */
+		#meet-the-team h3 { color:  } /* check and see if h3 affects same text as in Cat */
 
 	/* -------------------------------- */
 	/*             5. LINKS             */
 	/* -------------------------------- */
-		a { color: red; }
+		a { color:  }
 		/* Footer links */
-		footer a { color: green; }
+		footer a { color:  }
 
 	/* -------------------------------- */
 	/*          5. LINK HOVER         */
 	/* -------------------------------- */
-			a:hover { color: green; }
-			/* Footer links hover */
-			footer a:hover { color: blue; }
+		a:hover { color:  }
+		/* Footer links hover */
+		footer a:hover { color:  }
 
 	/* -------------------------------- */
 	/*         6. ALL ICON colors       */
 	/* -------------------------------- */
 	/* Social Icon colors */
 		/* Note: fa & fa:hover colors impact the Patient Forms PDF doc icon as well. You can override the colors for the PDF doc icon under the Patient Forms section below */
-		.fa { color: orange; }
+		.fa { color:  }
 		/* Patient Forms PDF Icon */
-		.form-rows .fa.fa-file-pdf-o { color: blue; }
-		.promo-detail:after { color: }
+		.form-rows .fa.fa-file-pdf-o { color:  }
+		.promo-detail:after { color:  }
 
 		/* class for social icons? ul.social-buttons li a */
 
-		/* -------------------------------- */
-		/*         6. Social Icon Hover colors       */
-		/* -------------------------------- */
-		.fa:hover { color: blue; }
-		/* Social icon bubble background color */
-		footer ul.social-buttons li a { background-color: purple;}
+	/* -------------------------------- */
+	/*   6. Social Icon Hover colors    */
+	/* -------------------------------- */
+		.fa:hover { color:  }
+		/* Social icon bubble background color - do not need - used accent color */
+		/* footer ul.social-buttons li a { background-color: } */
 
 	/* -------------------------------- */
-	/*    7. PHONE NUMBER LINK & ICON   */
+	/*       7. PHONE NUMBER LINK       */
 	/* -------------------------------- */
-	/* Header: phone number link */
-	#mainNav .number h3 a  { color: yellow;  }
-	#mainNav .number h3 a span  { color: yellow;  }
+		/* Header: phone number link  - Dog does not have a telephone icon */
+		#mainNav .number h3 a  { color:  }
 
 	/* ---------------------------------------------------------------- */
-	/*     8. ALL BUTTONS except slider button and timeline button      */
+	/*     8. ALL BUTTONS including slider button and timeline button and excluding squares     */
 	/* ---------------------------------------------------------------- */
 	/* Header: request appt button */
-	#mainNav #request { color: yellow; }
-	/* Squares buttons */
-	#team a { color: red; }
-	/* About us: button */
-	.portfolio a { color: yellow; }
-	/* testimonial sidebar Request appt button */
-	.sidebar .btn.btn-primary { color: green; }
-	/* Form submit button */
-	#patient-forms .btn-primary { color: purple; }
+		#mainNav #request { color:  }
+		/* About us: button */
+		.portfolio a { color:  }
+		/* testimonial sidebar Request appt button */
+		.sidebar .btn.btn-primary { color:  }
+		/* Form submit button */
+		#patient-forms .btn-primary { color:  }
+		/* slider button */
+		.intro-text a { color:  }
+		
 
 	/* -------------------------------- */
 	/*        9. BUTTON HOVER           */
 	/* -------------------------------- */
-	#mainNav #request:hover { color: green; }
-	/* Squares buttons hover */
-	#team a:hover { color: yellow; }
-	/* About us: button hover */
-	.portfolio a:hover { color:  red; }
-	/* testimonial sidebar Request appt button hover */
-		.sidebar .btn.btn-primary:hover { color: blue; }
+		#mainNav #request:hover { color:  }
+		/* About us: button hover */
+		.portfolio a:hover { color:  }
+		/* testimonial sidebar Request appt button hover */
+		.sidebar .btn.btn-primary:hover { color:  }
 		/* Form submit button hover */
-		#patient-forms .btn-primary:hover { color: green; }
+		#patient-forms .btn-primary:hover { color:  }
+		/* slider button hover */
+		.intro-text a:hover { color:  }
+
+		
 
 	/* NAV BAR */
 	/* -------------------------------- */
 	/*          10. SITE NAME           */
 	/* -------------------------------- */
 	/*  Nav Bar: site name */
-	.navbar-custom .navbar-brand.site-name { color: red; }
+		.navbar-custom .navbar-brand.site-name { color:  }
 
 
 
-		/* -------------------------------- */
-		/*      11. SITE NAME HOVER         */
-		/* -------------------------------- */
-		.navbar-custom .navbar-brand.site-name:hover { color: pink; }
+	/* -------------------------------- */
+	/*      11. SITE NAME HOVER         */
+	/* -------------------------------- */
+		.navbar-custom .navbar-brand.site-name:hover { color:  }
 
 
 	/* -------------------------------- */
 	/*          12. ALL NAV ITEMS       */
 	/* -------------------------------- */
 	/* Nav Bar: all nav items */
-	.navbar-custom .nav li a span { color: #0067cd; }
-	.caret { color: pink; }
+		.navbar-custom .nav li a span { color:  }
+		.caret { color:  }
 
 
-	/* -------------------------------- */
-	/*  13. ALL NAV ITEMS HOVER STATE   */
-	/* -------------------------------- */
+	/* ------------------------------------------------- */
+	/*  13. ALL NAV ITEMS HOVER STATE BACKGROUND COLOR   */
+	/* ------------------------------------------------- */
 	/* background color of hover on dropdown items */
-	.dropdown-menu>li>a:hover { background-color: green; }
+		.dropdown-menu>li>a:hover { background-color:  }
 
 
 	/* navbar active items */
 	/* -------------------------------- */
 	/*    14. NAV BG COLOR ACTIVE ITEMS     */
 	/* -------------------------------- */
-.navbar-custom .navbar-nav>.active>a { background-color: }
+		.navbar-custom .navbar-nav>.active>a { background-color:  }
+		.navbar-custom .navbar-nav ul a.at { background-color:  }
+		.navbar-custom .navbar-nav>.active>a:hover { background-color:  }
 
 	/* ------------------------------------------------------------- */
 	/*    15. NAV HOVER BG COLOR FOR NON-ACTIVE DROPDOWN ITEMS      */
 	/* ------------------------------------------------------------- */
-.dropdown-menu>li>a:hover { background-color: }
+		.dropdown-menu>li>a:hover { background-color:  }
 
 
 	/* HOMEPAGE */
@@ -146,20 +163,7 @@
 	/* -------------------------------- */
 	/* Homepage: slider */
 		/* Slider text */
-		.intro-text .intro-lead-in,.intro-heading { color: blue;  }
-
-
-	/* -------------------------------- */
-	/*         17. SLIDER BUTTON        */
-	/* -------------------------------- */
-	/* Slider button */
-		.intro-text a { color: green; }
-
-
-	/* -------------------------------- */
-	/*     18. SLIDER BUTTON: HOVER     */
-	/* -------------------------------- */
-			.intro-text a:hover { color:  red; }
+		.intro-text .intro-lead-in,.intro-heading { color:  }
 
 
 	/* Homepage Timeline */
@@ -168,32 +172,31 @@
 	/* -------------------------------- */
 	/* Timeline */
 	/* header, subtitle, body text */
-	#team section h2.section-heading { color: green; }
+	section h2.section-heading.color-override { color:  }
 	/* Bubble titles */
-	#team .timeline .timeline-heading h4 { color: blue; }
-
-	#team .timeline .timeline-heading h4.subheading { color: }
+	.timeline .timeline-heading h4 { color:  }
+	#team .timeline .timeline-heading h4.subheading { color:  }
 
 
 
 	/* ------------------------------------------------ */
 	/*     21. TIMELINE MAIN SUBTITLE & BODY TEXT     */
 	/* ------------------------------------------------ */
-	section h3.section-subheading { color: purple; }
-	.timeline .timeline-body > p { color: orange; }
+	section h3.section-subheading { color:  }
+	.timeline .timeline-body > p { color:  }
 
 
-	/* -------------------------------- */
-	/*        22. TIMELINE BUTTON       */
-	/* -------------------------------- */
+	/* ------------------------------------------------ */
+	/*     21. TIMELINE BUTTON     */
+	/* ------------------------------------------------ */
+
 	/* Timeline button */
-	#team .timeline > li .timeline-image h4 a { color: }
+		.timeline>li .timeline-image h4 a{ color:  }
 
-
-	/* -------------------------------- */
-	/*    23. TIMELINE BUTTON HOVER     */
-	/* -------------------------------- */
-	#team .timeline > li .timeline-image h4 a:hover { color: blue; }
+		/* ------------------------------------------------ */
+	/*     21. TIMELINE BUTTON HOVER    */
+	/* ------------------------------------------------ */	
+		.timeline > li .timeline-image h4 a:hover { color:  }
 
 
 	/* ----------------------------------------- */
@@ -201,17 +204,17 @@
 	/* ----------------------------------------- */
 	/* About us section */
 	/* Section Headline and body text */
-	.portfolio h2 { color: black; }
-	.portfolio p { color: yellow; }
+	.portfolio h2 { color:  }
+	.portfolio p { color:  }
 
 
 	/* -------------------------------- */
 	/*         25. FOOTER TEXT          */
 	/* -------------------------------- */
 	/* All footer text including copyright text */
-	section#contact .basic { color: pink; }
-	section#contact p { color: pink; }
-	section#contact p span { color: pink; }
+	section#contact .basic { color:  }
+	section#contact p { color:  }
+	section#contact p span { color:  }
 
 
 	/* SIDEBARS */
@@ -221,9 +224,9 @@
 	/* SIDEBARS */
 		/* Sidebar: section links */
 		/* Sectionlinks headline */
-		.body-content .sectionlinks-container h3 a { color: orange; }
+		.body-content .sectionlinks-container h3 a { color:  }
 		/* Sectionlinks links */
-		.body-content .sectionlinks-container ul li a { color: green; }
+		.body-content .sectionlinks-container ul li a { color:  }
 
 
 	/* Testimonials Box */
@@ -231,16 +234,16 @@
 	/*    27. TESTIMONIAL HEADER & LOCATION      */
 	/* ----------------------------------------- */
 	/* Testimonial headline  */
-	.body-content .sidebar .testimonial h4 { color: purple; }
+	.body-content .sidebar .testimonial h4 { color:  }
 	/* Testimonial name and location */
 
-	.body-content .sidebar .testimonial h6 { color: brown;  }
+	.body-content .sidebar .testimonial h6 { color:  }
 
 	/* ------------------------------------------ */
 	/*     28. Testimonial name and body text     */
 	/* ------------------------------------------ */
 	/* Testimonial text */
-	.body-content .sidebar .testimonial p span { color: green; }
-	.body-content .sidebar .testimonial h5 { color: brown;  }
+	.body-content .sidebar .testimonial p span { color:  }
+	.body-content .sidebar .testimonial h5 { color:  }
 
 </style>
