@@ -18,48 +18,48 @@
 
 
 	/* ----------------------------------------------------------------- */
-	/*     2. All SUBPAGE Hero Images   */
+	/*     3. All SUBPAGE Hero Images   */
 	/* ----------------------------------------------------------------- */
 		.hero-container h2 { color:  }
 
 
 	/* ---------------------------------------------------------------- */
-	/*    3. Homepage squares titles      */
+	/*    4. Homepage squares titles      */
 	/* ---------------------------------------------------------------- */
-		#team h3{ color:  } 
+		#team h3{ color:  }
 
 	/* ---------------------------------------------------------------- */
-	/*    3. Homepage squares button    */
+	/*    5. Homepage squares button    */
 	/* ---------------------------------------------------------------- */
 		#team a { color:  }
 
 	/* ---------------------------------------------------------------- */
-	/*    3. Homepage squares button hover    */
+	/*    6. Homepage squares button hover    */
 	/* ---------------------------------------------------------------- */
 		/* Squares buttons hover */
 		#team a:hover { color:  }
 
 	/* ---------------------------------------------------------------- */
-	/*    4. Employee categories    */
+	/*    7. Employee categories    */
 	/* ---------------------------------------------------------------- */
 		#meet-the-team h3 { color:  } /* check and see if h3 affects same text as in Cat */
 
 	/* -------------------------------- */
-	/*             5. LINKS             */
+	/*            8. LINKS             */
 	/* -------------------------------- */
 		a { color:  }
 		/* Footer links */
 		footer a { color:  }
 
 	/* -------------------------------- */
-	/*          5. LINK HOVER         */
+	/*          9. LINK HOVER         */
 	/* -------------------------------- */
 		a:hover { color:  }
 		/* Footer links hover */
 		footer a:hover { color:  }
 
 	/* -------------------------------- */
-	/*         6. ALL ICON colors       */
+	/*         10. ALL ICON colors       */
 	/* -------------------------------- */
 	/* Social Icon colors */
 		/* Note: fa & fa:hover colors impact the Patient Forms PDF doc icon as well. You can override the colors for the PDF doc icon under the Patient Forms section below */
@@ -71,20 +71,20 @@
 		/* class for social icons? ul.social-buttons li a */
 
 	/* -------------------------------- */
-	/*   6. Social Icon Hover colors    */
+	/*   11. Social Icon Hover colors    */
 	/* -------------------------------- */
 		.fa:hover { color:  }
 		/* Social icon bubble background color - do not need - used accent color */
 		/* footer ul.social-buttons li a { background-color: } */
 
 	/* -------------------------------- */
-	/*       7. PHONE NUMBER LINK       */
+	/*       12. PHONE NUMBER LINK       */
 	/* -------------------------------- */
 		/* Header: phone number link  - Dog does not have a telephone icon */
 		#mainNav .number h3 a  { color:  }
 
 	/* ---------------------------------------------------------------- */
-	/*     8. ALL BUTTONS including slider button and timeline button and excluding squares     */
+	/*     13. ALL BUTTONS including slider button and timeline button and excluding squares     */
 	/* ---------------------------------------------------------------- */
 	/* Header: request appt button */
 		#mainNav #request { color:  }
@@ -96,10 +96,10 @@
 		#patient-forms .btn-primary { color:  }
 		/* slider button */
 		.intro-text a { color:  }
-		
+
 
 	/* -------------------------------- */
-	/*        9. BUTTON HOVER           */
+	/*        14. BUTTON HOVER           */
 	/* -------------------------------- */
 		#mainNav #request:hover { color:  }
 		/* About us: button hover */
@@ -111,11 +111,11 @@
 		/* slider button hover */
 		.intro-text a:hover { color:  }
 
-		
+
 
 	/* NAV BAR */
 	/* -------------------------------- */
-	/*          10. SITE NAME           */
+	/*          15. SITE NAME           */
 	/* -------------------------------- */
 	/*  Nav Bar: site name */
 		.navbar-custom .navbar-brand.site-name { color:  }
@@ -123,13 +123,13 @@
 
 
 	/* -------------------------------- */
-	/*      11. SITE NAME HOVER         */
+	/*      16. SITE NAME HOVER         */
 	/* -------------------------------- */
 		.navbar-custom .navbar-brand.site-name:hover { color:  }
 
 
 	/* -------------------------------- */
-	/*          12. ALL NAV ITEMS       */
+	/*          17. ALL NAV ITEMS       */
 	/* -------------------------------- */
 	/* Nav Bar: all nav items */
 		.navbar-custom .nav li a span { color:  }
@@ -137,7 +137,7 @@
 
 
 	/* ------------------------------------------------- */
-	/*  13. ALL NAV ITEMS HOVER STATE BACKGROUND COLOR   */
+	/*  18. ALL NAV ITEMS HOVER STATE BACKGROUND COLOR   */
 	/* ------------------------------------------------- */
 	/* background color of hover on dropdown items */
 		.dropdown-menu>li>a:hover { background-color:  }
@@ -145,21 +145,21 @@
 
 	/* navbar active items */
 	/* -------------------------------- */
-	/*    14. NAV BG COLOR ACTIVE ITEMS     */
+	/*    19. NAV BG COLOR ACTIVE ITEMS     */
 	/* -------------------------------- */
 		.navbar-custom .navbar-nav>.active>a { background-color:  }
 		.navbar-custom .navbar-nav ul a.at { background-color:  }
 		.navbar-custom .navbar-nav>.active>a:hover { background-color:  }
 
 	/* ------------------------------------------------------------- */
-	/*    15. NAV HOVER BG COLOR FOR NON-ACTIVE DROPDOWN ITEMS      */
+	/*    20. NAV HOVER BG COLOR FOR NON-ACTIVE DROPDOWN ITEMS      */
 	/* ------------------------------------------------------------- */
 		.dropdown-menu>li>a:hover { background-color:  }
 
 
 	/* HOMEPAGE */
 	/* -------------------------------- */
-	/*       16. SLIDER TEXT       */
+	/*       21. SLIDER TEXT       */
 	/* -------------------------------- */
 	/* Homepage: slider */
 		/* Slider text */
@@ -168,7 +168,7 @@
 
 	/* Homepage Timeline */
 	/* -------------------------------- */
-	/*       20. TIMELINE TITLE, BUBBLE TITLE, BUBBLE SUBTITLES       */
+	/*       22. TIMELINE TITLE, BUBBLE TITLE, BUBBLE SUBTITLES       */
 	/* -------------------------------- */
 	/* Timeline */
 	/* header, subtitle, body text */
@@ -180,27 +180,27 @@
 
 
 	/* ------------------------------------------------ */
-	/*     21. TIMELINE MAIN SUBTITLE & BODY TEXT     */
+	/*     23. TIMELINE MAIN SUBTITLE & BODY TEXT     */
 	/* ------------------------------------------------ */
 	section h3.section-subheading { color:  }
 	.timeline .timeline-body > p { color:  }
 
 
 	/* ------------------------------------------------ */
-	/*     21. TIMELINE BUTTON     */
+	/*     24. TIMELINE BUTTON     */
 	/* ------------------------------------------------ */
 
 	/* Timeline button */
 		.timeline>li .timeline-image h4 a{ color:  }
 
 		/* ------------------------------------------------ */
-	/*     21. TIMELINE BUTTON HOVER    */
-	/* ------------------------------------------------ */	
+	/*     25. TIMELINE BUTTON HOVER    */
+	/* ------------------------------------------------ */
 		.timeline > li .timeline-image h4 a:hover { color:  }
 
 
 	/* ----------------------------------------- */
-	/*   24. HOMEPAGE ABOUT SECTION COLORS    */
+	/*   26. HOMEPAGE ABOUT SECTION COLORS    */
 	/* ----------------------------------------- */
 	/* About us section */
 	/* Section Headline and body text */
@@ -209,7 +209,7 @@
 
 
 	/* -------------------------------- */
-	/*         25. FOOTER TEXT          */
+	/*         27. FOOTER TEXT          */
 	/* -------------------------------- */
 	/* All footer text including copyright text */
 	section#contact .basic { color:  }
@@ -219,7 +219,7 @@
 
 	/* SIDEBARS */
 	/* -------------------------------- */
-	/*          26. SECTION LINKS       */
+	/*          28. SECTION LINKS       */
 	/* -------------------------------- */
 	/* SIDEBARS */
 		/* Sidebar: section links */
@@ -231,7 +231,7 @@
 
 	/* Testimonials Box */
 	/* ----------------------------------------- */
-	/*    27. TESTIMONIAL HEADER & LOCATION      */
+	/*    29. TESTIMONIAL HEADER & LOCATION      */
 	/* ----------------------------------------- */
 	/* Testimonial headline  */
 	.body-content .sidebar .testimonial h4 { color:  }
@@ -240,7 +240,7 @@
 	.body-content .sidebar .testimonial h6 { color:  }
 
 	/* ------------------------------------------ */
-	/*     28. Testimonial name and body text     */
+	/*     30. Testimonial name and body text     */
 	/* ------------------------------------------ */
 	/* Testimonial text */
 	.body-content .sidebar .testimonial p span { color:  }
