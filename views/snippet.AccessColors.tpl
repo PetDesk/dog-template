@@ -134,7 +134,7 @@
 	/* -------------------------------- */
 	/* Nav Bar: all nav items */
 		.navbar-custom .nav li a span { color: {{if {accessibility_colors.first().all_nav_items} }}{{accessibility_colors.first().all_nav_items}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
-		.caret { color:  }
+		.caret { color: {{if {accessibility_colors.first().all_nav_items} }}{{accessibility_colors.first().all_nav_items}};{{else}}{{accessibility_colors.first().site_wide}};{{end-if}} }
 
 
 	/* ------------------------------------------------- */
