@@ -20,7 +20,8 @@
 					<div class="row">
 						{{ end-if }}
 						<div class="col-md-6">
-							<iframe class="ytplayer" type="text/html" width="100%" src="https://www.youtube.com/embed/{{ video.youtube_id }}?rel=0" frameborder="0"></iframe>
+							<iframe class="ytplayer" type="text/html" width="100%" scrolling="auto"  src="https://www.youtube.com/embed/{{ video.youtube_id }}?rel=0" frameborder="0" title="{{video.video_title}} video"></iframe>
+							<p class="large">{{ video.video_title }}</p>
 							<p class="large">{{ video.video_title }}</p>
 							<p>{{ video.video_description}}</p>
 						</div>
