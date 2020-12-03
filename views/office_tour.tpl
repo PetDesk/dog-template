@@ -14,7 +14,7 @@
 				</div>
 				<div class="">
 					{{ if {page.youtube_id} }}
-					<iframe id="ytplayer" type="text/html" width="100%" src="https://www.youtube.com/embed/{{ page.youtube_id }}?rel=0" frameborder="0"></iframe>
+					<iframe id="ytplayer" type="text/html" width="100%" scrolling="auto" title="{{ this.video_iframe_title_attribute }}" src="https://www.youtube.com/embed/{{ page.youtube_id }}?rel=0" frameborder="0"></iframe>
 					{{ end-if }}
 				</div>
 				<hr>
