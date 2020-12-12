@@ -5,7 +5,7 @@
 		{{ each homepage_slides as slide sort by slide.sort_order }}
 		{{ if {slide.background_video} }}
 		<div class=""  >
-			<span class="background-video" role="video" aria-label="slider-video {{slide.background_video_alt_text }}"> </span>
+			<span class="background-video" role="video" aria-label=" {{slide.background_video_alt_text }}"> </span>
 			<header  data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getImage(2500)}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
 				<div class="cr" >
 					<div class="cc" >
@@ -24,7 +24,7 @@
 		</div>
 		{{ else }}
 		<div class=""  >
-			<span class="background-image" role="img" aria-label="slider-image {{slide.background_image_alt_text }}"> </span>
+			<span class="background-image" role="img" aria-label=" {{slide.background_image_alt_text }}"> </span>
 			<header style="background-image:url('{{slide.background_image.getImage(2500)}}'); {{ if {slide.horizontal_alignment_for_mobile} }}background-position: {{ slide.horizontal_alignment_for_mobile }};{{ end-if }}">
 				<div class="cr" >
 					<div class="cc" >
@@ -138,7 +138,7 @@
 {{ if {index} % 2 == 0 }}
 <section class="portfolio bg-light-gray">
 	{{ else if {index} % 2 == 1 }}
-	<span class="background-image" role="img" aria-label="background-image {{ abtsec.about_section_image_alt_text }}">
+	<span class="background-image" role="img" aria-label=" {{ abtsec.about_section_image_alt_text }}">
 	</span>
 	<section class="portfolio bg-light-gray" style="background-image:url('{{ abtsec.about_section_image.getImage() }}');background-size:contain;background-position:left bottom;background-repeat:no-repeat;">
 		{{ end-if }}
